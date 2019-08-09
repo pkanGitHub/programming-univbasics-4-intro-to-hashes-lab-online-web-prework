@@ -1,11 +1,11 @@
 def new_hash
   # return an empty hash
-  new = Hash.new
+  hash = Hash.new
 end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
-  new = {
+  hash = {
     "Surah" => "Restaurant",
     "Jin" => "Manager"
   }
@@ -13,12 +13,12 @@ end
 
 def pioneer
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
-  new = {:name => "Grace Hopper"}
+  hash = {:name => "Grace Hopper"}
 end
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
-  new = {:id => 6}
+  hash = {:id => 6}
 end
 
 def my_hash_creator(key, value)
@@ -30,8 +30,6 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  # new = {
-
     hash[key]
 end
 
